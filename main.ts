@@ -12,6 +12,8 @@ input.onButtonPressed(Button.AB, function () {
         basic.showString("B win")
     } else if (b < a) {
         basic.showString("A win")
+    } else if (a == b) {
+        basic.showString("Dual")
     }
     basic.clearScreen()
 })
