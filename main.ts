@@ -4,6 +4,7 @@ input.onButtonPressed(Button.AB, function () {
     a = randint(0, 6)
     basic.showNumber(a)
     basic.pause(100)
+    basic.clearScreen()
     b = randint(0, 6)
     basic.showNumber(b)
     basic.pause(100)
